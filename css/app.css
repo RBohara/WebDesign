@@ -67,8 +67,30 @@ aside#sidebar{
     margin-top: 10px;
 }
 
+aside#side-image{
+    width: 60%;
+    float: right;
+    margin-top: 85px;
+}
+
+#main{
+    margin-top: 25px;
+}
+
+
+figcaption{
+    display: block;
+}
+
 article#main-content, aside#sidebar{
     margin-top: 75px;
+}
+
+article#about-us{
+    float: left;
+    font-family: cursive;
+    margin-top: 75px;
+    width: 35%;
 }
 
 /* sign up button */

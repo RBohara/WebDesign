@@ -4,74 +4,97 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content = "width=device-width">
-        <title>Home | Cossie Play</title>
+        <title>About | CossiePlay</title>
         <link rel="stylesheet" href="css/app.css">
     </head>
     
     <body>
         
          <header>
-            <div class="container"> 
+             
              <div id="logo">
                  <a href="index.html"><h1>Cossie<span class="logo-custom">Play</span></h1></a> 
              </div> 
              
-              <div id="search-form">
-                  <form action="#">
-                      <input type="text" placeholder="Search for the costumes here"/>
-                      <button click="searchCostume()" type="submit" value="Search">Search</button>
-                  </form>
-                </div>
-             
               <nav>
                 <ul>
                   <li><a href="index.html">Home</a></li>
-                  <li><a href="gallery.html">About</a></li>
+                  <li class="active"><a href="about.html">About Us</a></li>
                   <li><a href="services.html">Services</a></li>
-                  <li><a href="about.html">Pricing</a></li>
+                  <li><a href="designs.html">Designs</a></li>
                 </ul>
                </nav>
-                        
-         </div>     
+                             
         </header>
-        
-        <div class="container">
-            <section id="short-intro">
-                <h1>Let's get cozy</h1>
-                <p>We, the CossiePlay team organize party where you come up by dressing up weird and in the most unusual and creative way.</p>
-            </section>
-        </div>
-     
-        <div class="container">
+             
+                   
+            <section id="main">
+              <div class="container">
                
-          <div id="image-container">                                
-              <img src="img/book-fair-678264_1280.jpg" alt="Book-fair">              
-          </div>
-          
-          <button onclick="previousImage()">Previous</button> 
-          <button onclick="nextImage()">Next</button>
-         
-        </div>
-        
-        
-         <section class="main">
-            <div class="container">    
-                
-                <div class="">
+               <article id="about-us">
+                   <h1>Who are we?</h1>
                     
-                </div>  
-                
-                <div class="">
+                    <p>
+                        CossiePlay is a family-run business, operating in Hulkstown since 2012. We create outstanding custom-made costumes. Cosplayers can order any kind of costume - from simple Spiderman or elf costumes right up to costumes including advanced features like armour, animatronics, realistic weaponry and working force fields. Depending on the difficulty, costumes take between 1 and 50 weeks and cost between $10 and $10,000.
+                        We buy and sell second-hand costumes (a price list is available om Services section) as well.</p>
+                    <p> It's the good news for the party monsters especially for teenagers       because on the first Saturday of every month we hold a “CossiePlay       Party” at the town hall. Entry is $15 for adults, $10 for ages 6-17     and kids under 6 are free. Each entry includes one non-alcoholic         drink and a glow stick. Parties start at 6pm and run until 11pm.         There is always a live DJ at the party (who takes requests) and         dancing is common (but not required). 
+                    </p>
+                     
                     
-                    
-                </div>         
+                </article>
+              
+                <aside id="side-image">
+                   <figure>
+                    <img src="img/party-1506740-640x480.jpg" alt="party">
+                    <figcaption>Dj rocking the party with his tune. Can you stop your feet to his tune? I am afraid you cannot.</figcaption>
+                   </figure>
+                </aside>
             
-            </div>
-        </section>
-        
+             
+             </div>     
+            </section>
+            
+            
+             <form action="signUp.html">
+              <button id="sign-up" type="submit">Sign Up</button>
+            </form>
            
+           
+                 <section id="main">
+                   <div class="container">
+                                            
+                    <h1>Announcement</h1>
+               
+                   <p>We have some cool things happening that we want people to know about:    this month you can purchase 3 drinks for the price of 2 at the bar.      First-time party-goers get a 50% discount on entry. If you get a         costume custom made, your next party entry is free if you wear           that costume. Wear your costume in to KFC on Stanton street and you        can get a free drink with a 21-piece bucket. Tell them you’ve been to    CossiePlay!
+                    </p>
+                  </div>
+                </section>
+                     
+                 
+                            
+                <section id="main">
+                   <div class="container">
+                    <h1>Party Guidelines</h1>
+                    <p>
+                    CossiePlay party-goers party at their own risk and are responsible for their own safety. Check with your doctor before you party hard.<br>
+                    Party fees must be paid at the door. Cash or EFTPOS accepted. Credit card payments attract a 2% surcharge.
+                    Alcohol is served at the bar to over 18s only. No intoxicated persons will be served, but will be escorted to a taxi – paid by the party-goer. If you agree to the guidelines, go and hit the sign up button.</p>
+                  </div>
+                </section>
+          
           <footer>
-           <p>CossiePlay, Copyright &copy; 2018. Desinged and developed by Rahul Bohara</p>
+           <div class="container">
+            <p>CossiePlay, Copyright &copy; 2018. Desinged and developed by Rahul Bohara</p>
+           
+             <div id="contact">               
+                 <address>
+                     Phone: 07 4771 1234 <br>
+                     Fax: 07 4771 1235 <br>
+                     Address: 4 Stanton Avenue, Hulkstwon <br>
+                     Email: cossieplay@ gmail.com <br>
+                 </address>
+             </div>
+            </div>
           </footer>
         
         <script src="js/app.js"> </script>
