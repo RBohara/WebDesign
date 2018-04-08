@@ -1,6 +1,6 @@
 body{
-    background-color: coral;
-    color: #fff;
+    background-color: #f5fbef;
+    color: black;
     font-family: cursive;
 }
 
@@ -11,7 +11,7 @@ body{
 
 /* header */
 header {
-    background-color: maroon;
+    background-color: #69140e;
     min-height: 70px;
     position: fixed;
     width: 100%;
@@ -44,6 +44,7 @@ nav{
 
 header #logo h1{
     float: left;
+    margin-left: 15px;
 }
 
 header #logo .logo-custom {
@@ -55,41 +56,51 @@ header #logo {
     font-family: cursive;
 }
 
-/* search form */
-#search-form {
+article#main-content{
+    width: 65%;
+    float: left;
+}
+
+aside#sidebar{
     float: right;
-    margin: 0;
-    margin-top: 30px;
+    width: 30%;
+    margin-top: 10px;
 }
 
-#search-form button{
-    background-color: maroon;
-    color: whitesmoke;
+article#main-content, aside#sidebar{
+    margin-top: 75px;
 }
 
-/* styling for short intro */
-#short-intro {
-    margin-top: 90px;
-}
-
-/* styling for article gallery */
-#image-container {
-    margin-top: 70px;
-    margin: 0;
-    overflow-x: hidden;    
-}
-
-#image-container img{
-    width: 100%;
-    height: 600px;
+/* sign up button */
+#sign-up {
+    position: fixed;
+    top: 45%;
+    right: 0;
+    font-size: 20px;
+    height: 100px;
+    width: 80px;
+    background-color: #bad9b5;
+    
 }
 
 /* styling for footer */
 footer {
-    padding: 0;
-    min-height: 70px;
-    background-color: #333;
+    min-height: 125px;
+    background-color: #2d3142;
     color: #fff;
-    width: 100%;
+    width: 100%; 
+    overflow: hidden;
+    
+}
+
+footer p{
+    margin-top: 50px;
+    float: right;
     text-align: center;
+}
+
+#contact{
+    float: left;
+    margin-left: 25px;
+    margin-top: 15px;
 }
