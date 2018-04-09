@@ -114,6 +114,10 @@ article#about-us{
     width: 35%;
 }
 
+section#party-guidelines{
+    margin-top: 95px;
+}
+
 /* sign up button */
 #sign-up {
     position: fixed;
@@ -154,6 +158,19 @@ article#about-us{
 
 .grid figure figcaption{
     text-align: center;
+}
+
+#signup-form{
+    margin-top: 30px;
+}
+
+#signup-form button{
+    background-color: #bad9b5;
+    font-size: 20px;
+}
+
+#signup-form button:hover{
+    background-color: lime;
 }
 
 /* styling for footer */
