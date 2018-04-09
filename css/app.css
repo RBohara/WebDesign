@@ -1,9 +1,11 @@
+/* styling for body */
 body{
     background-color: #f5fbef;
     color: black;
     font-family: cursive;
 }
 
+/* container styling */
 .container {
     width: 80%;
     margin: auto;
@@ -37,6 +39,10 @@ header li{
     padding: 0 10px 0 10px;
 }
 
+nav li.active{
+    color: #bad9b5;
+}
+
 nav{
     margin: 15px;
     float: right;
@@ -61,6 +67,11 @@ article#main-content{
     float: left;
 }
 
+#main-content img{
+    height: 200px;
+    width: 200px;
+}
+
 aside#sidebar{
     float: right;
     width: 30%;
@@ -77,6 +88,16 @@ aside#side-image{
     margin-top: 25px;
 }
 
+.service-container p a{
+    text-decoration: none;
+}
+
+
+#services img{
+    width: 1100px;
+    height: 500px;
+    margin-top: 80px;
+}
 
 figcaption{
     display: block;
@@ -105,6 +126,36 @@ article#about-us{
     
 }
 
+/* services section styling */
+#services{
+    width: 60%;
+}
+
+#services-img{
+    margin-top: 70px;
+    width: 100%;
+}
+
+/* grid styling */
+.grid {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    margin-top: 80px;
+}
+
+.grid img{
+    width: 300px;
+    height: 200px;
+}
+
+.grid a{
+    text-decoration: none;
+}
+
+.grid figure figcaption{
+    text-align: center;
+}
+
 /* styling for footer */
 footer {
     min-height: 125px;
@@ -119,8 +170,10 @@ footer p{
     margin-top: 50px;
     float: right;
     text-align: center;
+    padding: 0;
 }
 
+/* styling for contact details of footer */
 #contact{
     float: left;
     margin-left: 25px;
