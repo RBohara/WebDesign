@@ -39,13 +39,13 @@ header li{
     padding: 0 10px 0 10px;
 }
 
-nav li.active{
-    color: #bad9b5;
-}
 
 nav{
     margin: 15px;
     float: right;
+}
+header li.active{
+    color: #bad9b5;
 }
 
 header #logo h1{
@@ -84,10 +84,12 @@ aside#side-image{
     margin-top: 85px;
 }
 
+/* main styling */
 #main{
     margin-top: 25px;
 }
 
+/* serviec container styling */
 .service-container p a{
     text-decoration: none;
 }
@@ -141,13 +143,13 @@ section#party-guidelines{
 }
 
 /* grid styling */
-.grid {
+.grid, .price-grid {
     display: grid;
     grid-template-columns: 30% 30% 30%;
     margin-top: 80px;
 }
 
-.grid img{
+.grid img {
     width: 300px;
     height: 200px;
 }
@@ -160,6 +162,18 @@ section#party-guidelines{
     text-align: center;
 }
 
+/* styling for price list grid */
+.price-grid {
+    margin-top: 100px;
+}
+
+.price-grid img{
+    width: 400px;
+    height: 300px;
+    padding: 15px 15px 15px 15px;
+}
+
+/* sign up form styling */
 #signup-form{
     margin-top: 30px;
 }
@@ -172,6 +186,7 @@ section#party-guidelines{
 #signup-form button:hover{
     background-color: lime;
 }
+
 
 /* styling for footer */
 footer {
@@ -189,6 +204,8 @@ footer p{
     text-align: center;
     padding: 0;
 }
+
+
 
 /* styling for contact details of footer */
 #contact{
