@@ -44,8 +44,9 @@ nav{
     margin: 15px;
     float: right;
 }
-header li.active{
-    color: #bad9b5;
+
+nav a.active{
+    color: lime;   
 }
 
 header #logo h1{
